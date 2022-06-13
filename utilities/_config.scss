@@ -1,0 +1,28 @@
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+//font families
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Milonga&display=swap');
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: $dark;
+  color: $gold-light;
+}
+section{
+  margin: auto;
+}
+
+//icons
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css")
+

@@ -1,0 +1,46 @@
+@media screen and(max-width:1200px) {
+  #header{
+    h2{
+      margin-top: 2rem;
+      font-weight: 100;
+      @include fadeIn;
+    }
+    height: 85vh;
+    img{
+      margin: 20vh auto;
+    }
+  }
+  #movie{
+    flex-direction: column;
+    h2,i{
+      margin-bottom: $xxl;
+    }
+  }
+}
+@media screen and (min-width:600px) {
+  #Navigation{
+    ul{
+      display: none;
+    }
+  }
+  #header{
+    img{
+      margin: 20vh auto;
+      transform: scale(0.4);
+    }
+  }
+  #movie{
+    h2{
+      font-size: $lg;
+    }
+    img{
+      height: 200px;
+    }
+  }
+  #latest-news{
+    text-align: center;
+    image-rendering: {
+      width: 380px;
+    }
+  }
+}
