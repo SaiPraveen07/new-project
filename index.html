@@ -4,60 +4,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Web Design</title>
-  <link rel="stylesheet" href="./assest/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./assest/css/style.css">
+  <title>Document</title>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-      <div class="container">
-      <a href="/" class="navbar-brand">
+  <body>
+    <h2>Demo JavaScript in Head</h2>
 
-      <img src="/Simple Test Designs 03/Assets/logo2.png" alt="shopping&entertainment" loading="lazy" class="d-inline-block align-top"></img></a>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <script>
+      document.getElementById("demo").innerHTML = "Hello JavaScript";
 
-      <div class="collapse navbar-collapse" id="#myNavBar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a href="/index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="/page.html" class="nav-link">Pages</a>
-          </li>
-          <li class="nav-item">
-            <a href="/portfolio.html" class="nav-link">Portfolio</a>
-          <li class="nav-item">
-            <a href="/elements.html" class="nav-link">Elements</a>
-          </li>
-          <li class="nav-item">
-            <a href="/blog.html" class="nav-link">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="/what.html" class="nav-link">What's New</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-    </nav>
-  </header>
-  <hr>
-  <header>
-  <h5 class="text-center">The standard Lorem ipsum passage, used since the 1500s </h5>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis reiciendis odio commodi aspernatur quasi iure doloremque, cum ipsum nam suscipit vel sequi a? Ab asperiores magnam ducimus itaque culpa. Temporibus!</p>
-  <div class="container">
-    <nav></nav>
-    <main></main>
-    <div id="sidebar"></div>
+      // variables
+      let MyCountry = "India";
+      console.log(MyCountry);
+      let $country = "india";
+      console.log($country);
 
-  </div>
-  </header>
-  <!--bootstrap js-->
-  
-  <script src="./assest/js/jquery.min.js"></script>
-  <script src="./assest/js/bootstrap.min.js"></script>
+      let $ = 1;
+      let _ = 2;
+      console.log($ + _);
+
+      const PI = 3.14;
+      console.log(PI);
+
+      const COLOR_RED = "#F00";
+      const COLOR_GREEN = "#0F0";
+      const COLOR_BLUE = "#00F";
+      const COLOR_ORANGE = "#FF7F00";
+
+      let color = COLOR_ORANGE;
+      console.log(color);
+      //undefined
+      let MyTeam;
+      console.log(MyTeam);
+      //Datatypes
+      //primitive datatypes
+      //string
+      let str = "Hello";
+      //number
+      let str2 = 77;
+
+      let x = { firstName: "sai", lastName: "Praveen" };
+      let name = "saipraveen";
+
+      console.log(`Hello, ${name}!`);
+
+      console.log(`the result is ${1 + 2}`);
+      //boolean
+      let operation = 4 > 1;
+      let operation1 = 3 < 2;
+
+      console.log(operation);
+      console.log(operation1);
+
+      //typeof
+      console.log(typeof "chennai");
+      console.log(typeof 4256);
+      console.log(typeof variable);
+
+      // array
+      const newspaper = ["Hindu", "times of india", "indian express"];
+      console.log(newspaper);
+    </script>
+  </body>
+</html>
 </body>
 </html>
